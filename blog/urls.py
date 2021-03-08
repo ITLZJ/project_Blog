@@ -7,5 +7,6 @@ urlpatterns = [
     url(r"^$",views.queryAll),
     url(r"^page/(\d+)$",views.queryAll),
     url(r"^post/(\d+)$",views.detail),
+    url(r"^category/(\d+)$",views.detail),
 
 ]
